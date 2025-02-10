@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Music Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="music-player">
+        <h2>Simple Music Player</h2>
+
+        <div class="player-controls">
+            <input type="file" id="musicFile" accept="audio/*" />
+            <button id="playBtn">Play</button>
+            <button id="pauseBtn" disabled>Pause</button>
+            <button id="stopBtn" disabled>Stop</button>
+        </div>
+
+        <div class="status">
+            <p id="c:\Users\sande\Desktop\MUSIC\Mohammad Aziz Ke Dard Bhare Nagme _ Hits of Mohammad Aziz _ Sad Song _ old songs hits hindi 90s_WmXJE1cdAMk.mp3">No song selected</p>
+        </div>
+
+        <audio id="audioPlayer" style="display:none;"></audio>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
